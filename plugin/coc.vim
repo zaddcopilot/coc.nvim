@@ -477,7 +477,7 @@ function! s:Highlight() abort
   hi default link CocMarkdownCode        markdownCode
   hi default link CocMarkdownHeader      markdownH1
   hi default link CocDeprecatedHighlight CocStrikeThrough
-  hi default link CocUnusedHighlight     CocFadeOut
+  hi default link CocUnusedHighlight     Comment
   hi default link CocListSearch          CocSearch
   hi default link CocListMode            ModeMsg
   hi default link CocListPath            Comment
